@@ -84,7 +84,7 @@ namespace CaseStudySK
             }
             /*close the chrome window and send the acquired data to the csv file on this location*/
             driver.Quit();
-            File.WriteAllText("D:/2_TM/devops/csv/youtube.csv", csv.ToString(), Encoding.UTF8);
+            File.WriteAllText("C:/Users/Public/youtube.csv", csv.ToString(), Encoding.UTF8);
 
         }
     }
@@ -155,7 +155,7 @@ namespace CaseStudySK
 
             }
             driver.Quit();
-            File.WriteAllText("D:/2_TM/devops/csv/indeed.csv", csv.ToString(), Encoding.UTF8);
+            File.WriteAllText("C:/Users/Public/indeed.csv", csv.ToString(), Encoding.UTF8);
 
         }
 
@@ -238,7 +238,7 @@ namespace CaseStudySK
 
             }
             driver.Quit();
-            File.WriteAllText("D:/2_TM/devops/csv/reddit.csv", csv.ToString(), Encoding.UTF8);
+            File.WriteAllText("C:/Users/Public/reddit.csv", csv.ToString(), Encoding.UTF8);
 
         }
 

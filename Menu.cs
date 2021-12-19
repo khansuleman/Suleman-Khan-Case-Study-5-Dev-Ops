@@ -13,6 +13,7 @@ namespace CaseStudySK
             Console.WriteLine("Scrap App - Make a choice!");
             Console.WriteLine("-------------------------------------------------------");
             Console.WriteLine(" ");
+            Console.WriteLine("In your C:/Users/Public/ you will find a CSV file containing results of your scrap search");
             Console.WriteLine(" ");
             Console.WriteLine("-------------------------------------------------------");
             Console.WriteLine("Type YOUTUBE to enter a word and scrap the last videos from the search query!");
