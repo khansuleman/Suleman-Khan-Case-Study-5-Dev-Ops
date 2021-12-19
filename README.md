@@ -1,4 +1,4 @@
-# Suleman-Khan-Case-Study-5-Dev-Ops
+# CASE STUDY 5 - SELENIUM WEB SCRAP TOOL
 Case Study 5: Web scrap console app
 
 SIMPLE CONSOLE APP THAT ALLOWS THE USER TO SCRAP FROM THE 3 PRESET SITES:
