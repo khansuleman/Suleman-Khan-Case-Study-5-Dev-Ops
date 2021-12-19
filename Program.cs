@@ -8,6 +8,7 @@ namespace CaseStudySK
     {
         static void Main(string[] args)
         {
+
             /*here we create a do while loop where our user can make a choice. Then depending on the choice made by the user, the corresponding method is called.*/
             do
             {
