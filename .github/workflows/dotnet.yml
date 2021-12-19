@@ -23,3 +23,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Publish
       run: dotnet publish -c Release --self-contained -r win-x64 -p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
+    - name: Upload WebApp1 Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: SKCASE5
+        path: C:\Users\manu4\source\repos\SKCASE5\bin\Release\net5.0\win-x64\publish
