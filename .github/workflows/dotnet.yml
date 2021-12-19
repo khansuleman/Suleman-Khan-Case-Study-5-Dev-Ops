@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Publish
-      run: dotnet publish -c Release --self-contained -r win-x64 -p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
+      run: dotnet publish -c Release --self-contained -r win-x64 -p:PublishSingleFile=true
     - name: Upload SKCASE5 Build Artifact
       uses: actions/upload-artifact@v2
       with:
